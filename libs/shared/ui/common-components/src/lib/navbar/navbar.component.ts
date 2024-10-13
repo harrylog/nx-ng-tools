@@ -18,7 +18,7 @@ export class NavbarComponent {
 }
 
 function addHome(items: NavbarItem[]): NavbarItem[] {
-  return [{ label: 'home', route: '/' }, ...items];
+  return [{ label: 'home', route: '/' },{label:'exp-app',route:'/expenses-approval'}, ...items];
 }
 
 export interface NavbarItem {

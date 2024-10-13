@@ -2,7 +2,7 @@
   <div>
     @for (navbarItem of navbarItems(); track navbarItem.route; let i = $index) {
     <a [attr.data-test-id]="'nav-item-' + i" [routerLink]="navbarItem.route" class="navbarItem">
-      {{navbarItem.label}}
+      {{navbarItem.label}}+'xxxxxxxxxxxxxx'
     </a>
     }
   </div>
